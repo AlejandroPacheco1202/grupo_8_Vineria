@@ -10,4 +10,5 @@ Elegimos 5 referencias:
   home
   https://wireframe.cc/aHv5KG
   
-  
+ Página de productos - de acuerdo a la categoría del home
+  https://wireframe.cc/dC3Kfn
