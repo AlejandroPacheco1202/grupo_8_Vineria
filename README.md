@@ -17,4 +17,7 @@ Elegimos 5 referencias:
  https://wireframe.cc/bXa6ed
  
  Formulario de registro
+ https://wireframe.cc/wa3s1B
+ 
+
  
