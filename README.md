@@ -12,3 +12,9 @@ Elegimos 5 referencias:
   
  Página de productos - de acuerdo a la categoría del home
   https://wireframe.cc/dC3Kfn
+  
+ Formulario de login
+ https://wireframe.cc/bXa6ed
+ 
+ Formulario de registro
+ 
