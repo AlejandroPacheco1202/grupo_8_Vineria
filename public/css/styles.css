@@ -1,62 +1,107 @@
+.paletadecolores{
+    color:#335C67;
+    color:#FFF3B0;
+    color:#E09F3E;
+    color:#9E2A2B;
+    color:#540B0E;
+}
 body{
-    font-size: 12px;
-    background-color:white;
-    font-family: 'Monserrat',sans-serif;
-    border:1px black solid;
-    padding:5px;
+    font-size: 14px;
+    background-color:#FFF3B0; 
+    font-family:'caveat', 'Monserrat',sans-serif;
 }
 
 header{
-    border: 1px blue solid;
-    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#9E2A2B;
+    color: #FFF3B0; 
 }
 
-.logo{
-   width: 25%;
+.encabezadologo{
+    width: 25%;
+}
+.encabezadoIconos{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    justify-content: flex-end;
+    width: 70%;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+}   
+.iconotelefono{
+    padding: 10px;
+}
+.iconousuario{
+    padding: 10px;
+    color:#FFF3B0;
+}
+.iconoregistro{
+    color: #FFF3B0;
+    font-size: 14px;
+}
+.iconocarrito{
+    color: #FFF3B0;
+    padding: 10px;
 }
 .boxbuscar{
     background-color: white;
     border:solid black 1px;
-}
-.menu{
-    width: 100%;
     height: 20px;
+    width: 75%;
+
+}
+.encabezadomenu{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content:space-around;
     align-items: center;
-    border: 1px black solid;
-    margin-top:10px;
+    font-family: 'caveat',sans-serif; 
 }
 
-.gondola{
-    width: 100%;
-    height: 200px;
+.contenedorprod{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    justify-content: stretch;
     align-items: flex-start;
-    border: 2px red solid;
     margin-top:10px;
 }
 
-.gondola img{
-    width: 15%;
+.prod img{
+    width: 100%;
 }
+
+#prod3{
+    display: none;
+}
+#prod4{
+    display: none;
+}
+#prod5{
+    display: none;
+}
+#prod6{
+    display: none;
+}
+
 .categorias{
-    width: 100%;
-    height: 100px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: 2px red solid;
-    margin-top:10px;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 .categorias img{
-    width: 19%; 
+    width:100%;
+    height: 50px;
 }
+
+
 .menumediosdePago{ 
     width: 100%;
     height: 30px;
@@ -66,15 +111,128 @@ header{
     align-items: center;
     border: 1px black solid;
     margin-top:10px;
+    background-color: #E09F3E;
 }
 
-.footerlista{
+ 
+.footerCol1{
+    width: 50%;
+    
+}
+.footerCol2{
+    width: 50%;
+    
+}
+
+.footerRedes{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
     width: 100%;
-    height: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;   
-    border: 1px black solid;
-    margin-top:10px;
+    padding-top: 10px;
+    background-color:#56070C;
+    color: white;
+} 
+
+
+/*elementos de producto*/
+.prodelegidoinfo{   
+    font-size: 18px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.prodelegidoimagen{
+    width: 50%;
+    margin-left: 25%;
+}
+.prodelegidoiconocarrito{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    font-size: 18px;
+    color:#56070C;
+}
+.tituloProducto{
+    background-color: #335C67;
+    color:#FFF3B0;
+    text-align: center;
+}
+/*elementos del carrit*/
+.enCarrito1{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 10px;
+    border: #56070C 1px solid;
+}   
+.enCarrito2{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 10px;
+    border: #56070C 1px solid;
+}   
+.cajaCarrito img{
+    margin-left: 10px;
+    height: 100px;
+    margin-right: 10%;
     
+}
+
+
+
+/*Estilos del login*/
+h2 {
+    background-color: #335C67;
+    width: 100%;
+    border: #E09F3E;
+    color: #E09F3E;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.loginMain{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 200px;
+    width: 100%;
+}
+.loginMain p{
+    padding: 5px;
+    width: 75%;
+}
+.loginMain button{
+    margin-left: 5%;
+    width: 50%;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+
+
+/*estilos del formulario registro*/
+.registerMain{ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 300px;
+    width: 100%;
+}
+.registerMain p{
+    padding: 5px;
+    width: 75%;
+}
+.registerMain button{
+    margin-left: 5%;
+    width: 50%;
+    margin-bottom: 10px;
+    justify-content: center;
 }

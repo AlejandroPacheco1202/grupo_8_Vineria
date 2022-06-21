@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--estoy llamando a la pagina de los íconos-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link href="https://fontawesome.com/v5/search?m=free" rel= "stylesheet"/>
+        <!--estoy usando la fuente llamada "Monserrat y caveat"-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:ital,wght@0,200;0,300;1,100&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="/css/stylesFormularios.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <style>
+            *{margin:0;padding: 0;box-sizing:border-box}
+        </style>
+        <title>Login</title>
+    </head>
+<body>
+    <header>        
+        <img class="encabezadologo" src='images/CordonDePlata.jpg' alt="logo">
+        <div class="encabezadoIconos">
+            <i class="iconotelefono"><i class="fas fa-phone-alt"></i></i> 
+            <a href="/login" class="iconousuario"><i class="fas fa-user"></i></a>
+            <i class="iconocarrito"><i class="fas fa-shopping-cart"></i></i>
+            <a href="/register" class="iconoregistro">Registrarse</a>
+        </div>
+        <nav class="encabezadomenu">
+            <p>Shop</p>
+            <p>Regiones</p>
+            <p>Top Ventas</p>
+            <p>Oportunidades</p>
+            <p>Contacto</p>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Ingresa!</h2>
+        <form class="loginMain" action="/login/" method="post">
+            <p>
+                <label>Usuario:</label>
+                <input type="text" name="usuario">
+            </p>
+            <p>
+                <label>Contraseña:</label>
+                <input type="password" name="clave">
+            </p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            <p>
+                <label for="text">Recordar Usuario y contraseña?</label>
+                <input type="checkbox" name="Recordar" value="Si">
+            </p>
+            <p>
+                <label for="Contraseña">¿Olvido su contraseña?</label>
+                <input type="email" name="email" id="email">Ingrese su e-mail</p>
+            </p>
+        </form> 
+    </main>
+
+    <footer>
+        <ul class="footerCol1" type="none">
+            <li>Contacto</li>
+            <li>Prensa</li>
+            <li>Noticias sobre vinos</li>
+            <li>Aplicación</li>
+        </ul>
+
+        <ul class="footerCol2" type="none">
+            <li>Empleos</li>
+            <li>Políticas de privacidad</li>
+            <li>Mapa del sitio</li>
+            <li>Acerca de</li>
+        </ul>
+
+        <ul class="footerRedes" type="none">
+            <li>Seguinos en: </li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+        </ul>   
+    </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--estoy llamando a la pagina de los íconos-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link href="https://fontawesome.com/v5/search?m=free" rel= "stylesheet"/>
+        <!--estoy usando la fuente llamada "Monserrat y caveat"-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:ital,wght@0,200;0,300;1,100&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/styles.css">
+        <style>
+            *{margin:0;padding: 0;box-sizing:border-box}
+        </style>
+        <title>Registro</title>
+    </head>
+
+    <body>
+        <header>
+            <img class="encabezadologo" src='images/CordonDePlata.jpg' alt="logo">
+            <div class="encabezadoIconos">
+                <i class="iconotelefono"><i class="fas fa-phone-alt"></i></i> 
+                <a href="/login" class="iconousuario"><i class="fas fa-user"></i></a>
+                <a href="/carrito" class="iconocarrito"><i class="fas fa-shopping-cart"></i></a>
+                <a href="/register" class="iconoregistro">Registrarse</a>
+            </div>
+               
+            <nav class="encabezadomenu">
+                <p>Shop</p>
+                <p>Regiones</p>
+                <p>Top Ventas</p>
+                <p>Oportunidades</p>
+                <p>Contacto</p>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Únete a nosotros</h2>
+            <form class="registerMain" action="/login/" method="post">
+                <p>
+                    <label>Nombre:</label>
+                    <input type="text" name="Nombre" required>
+                </p>
+                <p>
+                    <label>Apellido:</label>
+                    <input type="text" name="Apellido" required>
+                </p>
+                <label>Fecha de nacimiento:</label>
+                <input type="date" name="fecha" min="1900-01-01" max="2005-06-01" required>
+                <select name="mes">
+                    <option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Mayo</option>
+                    <option value="6">Junio</option>
+                    <option value="7">Julio</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Septiembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciemre</option>
+                </select>
+                <p>
+                    <label>Localidad:</label>
+                    <input type="text" name="Localidad">
+                </p>
+                <p>
+                    <label>Calle:</label>
+                    <input type="text" name="Calle">
+                </p>
+                <p>
+                    <label>Numero:</label>
+                    <input type="text" name="Numero">
+                </p>
+                <p>
+                    <label>Codigo postal:</label>
+                    <input type="text" name="Codigo">
+                </p>
+                <p>
+                    <label>Correo</E-mail>:</label>
+                    <input type="email" name="E-mail">
+                </p><p>
+                    <label>Telefono:</label>
+                    <input type="text" name="Telefono">
+                </p>
+                <button type="submit">Enviar</button>
+                        <p>
+                
+                </p>
+            </form> 
+        </main>
+        <footer>
+            <ul class="footerCol1" type="none">
+                <li>Contacto</li>
+                <li>Prensa</li>
+                <li>Noticias sobre vinos</li>
+                <li>Aplicación</li>
+            </ul>
+
+            <ul class="footerCol2" type="none">
+                <li>Empleos</li>
+                <li>Políticas de privacidad</li>
+                <li>Mapa del sitio</li>
+                <li>Acerca de</li>
+            </ul>
+            <ul class="footerRedes" type="none">
+                <li>Seguinos en: </li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+            </ul>   
+        </footer>
+    </body>
+</html>
