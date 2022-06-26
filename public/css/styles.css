@@ -17,10 +17,10 @@ header{
     background-color:#9E2A2B;
     color: #FFF3B0; 
 }
-
-.encabezadologo{
+header img{
     width: 25%;
-}
+}   
+
 .encabezadoIconos{
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +69,7 @@ header{
     flex-wrap: nowrap;
     width: 100%;
     height: 100%;
-    justify-content: stretch;
+    justify-content: space-around;
     align-items: flex-start;
     margin-top:10px;
 }
@@ -94,14 +94,14 @@ header{
 .categorias{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-around;
     width: 100%;
+    padding: 10px;
 }
 .categorias img{
     width:100%;
-    height: 50px;
+    height: 50px;     
 }
-
-
 .menumediosdePago{ 
     width: 100%;
     height: 30px;
@@ -113,32 +113,27 @@ header{
     margin-top:10px;
     background-color: #E09F3E;
 }
-
- 
 .footerCol1{
-    width: 50%;
-    
+    width: 50%;    
 }
 .footerCol2{
-    width: 50%;
-    
+    width: 50%;    
 }
-
 .footerRedes{
     display: flex;
     flex-wrap: nowrap;
-    margin-top: 10px;
+    margin: 2px;
     width: 100%;
-    height: 30px;
+    height: 15px;
     align-items: center;
     justify-content: space-around;
 }
 footer{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 10px;
     background-color:#56070C;
     color: white;
+    padding: 10px;
 } 
 
 
@@ -202,7 +197,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    height: 200px;
     width: 100%;
 }
 .loginMain p{
@@ -223,7 +217,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    height: 300px;
     width: 100%;
 }
 .registerMain p{

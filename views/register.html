@@ -10,17 +10,27 @@
         <!--estoy usando la fuente llamada "Monserrat y caveat"-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:ital,wght@0,200;0,300;1,100&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:ital,wght@0,200;0,300;1,1-&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/styles.css">
         <style>
             *{margin:0;padding: 0;box-sizing:border-box}
+            @media (min-width:361px){
+                header{font-size: 2em;}
+                footer{font-size: 2em;}
+                .footerRedes{margin: 0.5em;}
+            }
+            @media (min-width:769px){
+                header{font-size: 2.5em;}
+                footer{font-size: 2.5em;}
+                main{font-size: 3em;}
+            } 
         </style>
         <title>Registro</title>
     </head>
 
     <body>
         <header>
-            <img class="encabezadologo" src='images/CordonDePlata.jpg' alt="logo">
+            <img href="/" src='images/CordonDePlata.jpg' alt="logo">
             <div class="encabezadoIconos">
                 <i class="iconotelefono"><i class="fas fa-phone-alt"></i></i> 
                 <a href="/login" class="iconousuario"><i class="fas fa-user"></i></a>
@@ -50,20 +60,6 @@
                 </p>
                 <label>Fecha de nacimiento:</label>
                 <input type="date" name="fecha" min="1900-01-01" max="2005-06-01" required>
-                <select name="mes">
-                    <option value="1">Enero</option>
-                    <option value="2">Febrero</option>
-                    <option value="3">Marzo</option>
-                    <option value="4">Abril</option>
-                    <option value="5">Mayo</option>
-                    <option value="6">Junio</option>
-                    <option value="7">Julio</option>
-                    <option value="8">Agosto</option>
-                    <option value="9">Septiembre</option>
-                    <option value="10">Octubre</option>
-                    <option value="11">Noviembre</option>
-                    <option value="12">Diciemre</option>
-                </select>
                 <p>
                     <label>Localidad:</label>
                     <input type="text" name="Localidad">
