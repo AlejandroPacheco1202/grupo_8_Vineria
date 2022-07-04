@@ -1,5 +1,9 @@
 .paletadecolores{
-    color:#335C67;
+    color:#B09E80;
+    color:#192537;
+
+
+    color:#87b6c4;
     color:#FFF3B0;
     color:#E09F3E;
     color:#9E2A2B;
@@ -14,8 +18,8 @@ body{
 header{
     display: flex;
     flex-wrap: wrap;
-    background-color:#9E2A2B;
-    color: #FFF3B0; 
+    background-color:#B09E80;
+    color: #540B0E; 
 }
 header img{
     width: 25%;
@@ -36,14 +40,14 @@ header img{
 }
 .iconousuario{
     padding: 10px;
-    color:#FFF3B0;
+    color:#540B0E;
 }
 .iconoregistro{
-    color: #FFF3B0;
+    color: #540B0E;
     font-size: 14px;
 }
 .iconocarrito{
-    color: #FFF3B0;
+    color: #540B0E;
     padding: 10px;
 }
 .boxbuscar{
@@ -131,8 +135,8 @@ header img{
 footer{
     display: flex;
     flex-wrap: wrap;
-    background-color:#56070C;
-    color: white;
+    background-color:#B09E80;
+    color: #540B0E;
     padding: 10px;
 } 
 
@@ -193,12 +197,22 @@ h2 {
     text-align: center;
     box-sizing: border-box;
 }
+
 .loginMain{
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     width: 100%;
 }
+.loginMain, p{
+    width:100%;
+    justify-content: flex-end;
+}
+
+.loginMain, label{
+    width: 30%;
+}
+
 .loginMain p{
     padding: 5px;
     width: 75%;
